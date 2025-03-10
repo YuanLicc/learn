@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.sql</OriginalElement>
+  <nodes>
+    <node x="1011.5" y="445.0">java.sql.SQLNonTransientException</node>
+    <node x="981.0" y="96.0">java.sql.Connection</node>
+    <node x="900.0" y="789.0">java.sql.Time</node>
+    <node x="562.0" y="541.0">java.sql.SQLFeatureNotSupportedException</node>
+    <node x="2777.0" y="541.0">java.sql.SQLTimeoutException</node>
+    <node x="0.0" y="789.0">java.sql.SQLXML</node>
+    <node x="1874.0" y="622.0">java.sql.DriverInfo</node>
+    <node x="462.0" y="789.0">java.sql.Array</node>
+    <node x="764.0" y="96.0">java.sql.ParameterMetaData</node>
+    <node x="185.0" y="96.0">java.sql.ResultSet</node>
+    <node x="1042.0" y="622.0">java.sql.RowIdLifetime</node>
+    <node x="1672.0" y="622.0">java.sql.DriverAction</node>
+    <node x="154.0" y="789.0">java.sql.Struct</node>
+    <node x="4.0" y="622.0">java.sql.SQLType</node>
+    <node x="15.999999999999773" y="445.0">java.sql.SQLWarning</node>
+    <node x="170.0" y="708.0">java.sql.NClob</node>
+    <node x="0.0" y="541.0">java.sql.DataTruncation</node>
+    <node x="480.5" y="0.0">java.sql.Wrapper</node>
+    <node x="2060.0" y="622.0">java.sql.Timestamp</node>
+    <node x="2473.384803921569" y="445.0">java.sql.SQLTransientException</node>
+    <node x="0.0" y="182.0">java.sql.PreparedStatement</node>
+    <node x="566.0" y="622.0">java.sql.PseudoColumnUsage</node>
+    <node x="2594.0" y="622.0">java.sql.SQLInput</node>
+    <node x="608.0" y="789.0">java.sql.RowId</node>
+    <node x="0.0" y="268.0">java.sql.CallableStatement</node>
+    <node x="1314.0" y="789.0">java.sql.Ref</node>
+    <node x="1501.0" y="541.0">java.sql.SQLNonTransientConnectionException</node>
+    <node x="547.0" y="96.0">java.sql.ResultSetMetaData</node>
+    <node x="754.0" y="789.0">java.sql.Types</node>
+    <node x="1700.0416666666667" y="445.0">java.sql.BatchUpdateException</node>
+    <node x="1854.0" y="541.0">java.sql.SQLSyntaxErrorException</node>
+    <node x="338.0" y="96.0">java.sql.DatabaseMetaData</node>
+    <node x="1100.0" y="541.0">java.sql.SQLIntegrityConstraintViolationException</node>
+    <node x="0.0" y="708.0">java.sql.JDBCType</node>
+    <node x="569.7475490196077" y="445.0">java.sql.SQLClientInfoException</node>
+    <node x="1603.5416666666667" y="349.0">java.sql.SQLException</node>
+    <node x="2238.0" y="622.0">java.sql.SQLOutput</node>
+    <node x="193.0" y="541.0">java.sql.SQLInvalidAuthorizationSpecException</node>
+    <node x="891.0" y="541.0">java.sql.SQLDataException</node>
+    <node x="174.0" y="622.0">java.sql.Clob</node>
+    <node x="2722.384803921569" y="445.0">java.sql.SQLRecoverableException</node>
+    <node x="316.0" y="622.0">java.sql.DriverPropertyInfo</node>
+    <node x="2416.0" y="622.0">java.sql.Savepoint</node>
+    <node x="2448.0" y="541.0">java.sql.SQLTransientConnectionException</node>
+    <node x="1252.0" y="622.0">java.sql.SQLPermission</node>
+    <node x="1038.0" y="789.0">java.sql.Date</node>
+    <node x="2764.0" y="622.0">java.sql.SQLData</node>
+    <node x="308.0" y="789.0">java.sql.Driver</node>
+    <node x="32.0" y="96.0">java.sql.Statement</node>
+    <node x="2119.0" y="541.0">java.sql.SQLTransactionRollbackException</node>
+    <node x="1176.0" y="789.0">java.sql.Blob</node>
+    <node x="808.0" y="622.0">java.sql.ClientInfoStatus</node>
+    <node x="1462.0" y="622.0">java.sql.DriverManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.sql.SQLInvalidAuthorizationSpecException" target="java.sql.SQLNonTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="367.5" y="501.0" />
+      <point x="1032.5833333333333" y="501.0" />
+      <point x="-105.41666666666674" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLClientInfoException" target="java.sql.SQLException">
+      <point x="0.0" y="-18.0" />
+      <point x="688.2475490196077" y="415.0" />
+      <point x="1642.7916666666667" y="415.0" />
+      <point x="-39.25" y="18.0" />
+    </edge>
+    <edge source="java.sql.ResultSetMetaData" target="java.sql.Wrapper">
+      <point x="0.0" y="-18.0" />
+      <point x="645.5" y="76.0" />
+      <point x="548.75" y="76.0" />
+      <point x="9.75" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLTransientException" target="java.sql.SQLException">
+      <point x="0.0" y="-18.0" />
+      <point x="2587.884803921569" y="415.0" />
+      <point x="1721.2916666666667" y="415.0" />
+      <point x="39.25" y="18.0" />
+    </edge>
+    <edge source="java.sql.DataTruncation" target="java.sql.SQLWarning">
+      <point x="-1.1368683772161603E-13" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.sql.CallableStatement" target="java.sql.PreparedStatement">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLTimeoutException" target="java.sql.SQLTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="2883.5" y="521.0" />
+      <point x="2664.218137254902" y="521.0" />
+      <point x="76.33333333333331" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLTransactionRollbackException" target="java.sql.SQLTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="2273.5" y="521.0" />
+      <point x="2511.5514705882356" y="521.0" />
+      <point x="-76.33333333333331" y="18.0" />
+    </edge>
+    <edge source="java.sql.NClob" target="java.sql.Clob">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.sql.ResultSet" target="java.sql.Wrapper">
+      <point x="0.0" y="-18.0" />
+      <point x="251.5" y="66.0" />
+      <point x="509.75" y="66.0" />
+      <point x="-29.25" y="18.0" />
+    </edge>
+    <edge source="java.sql.JDBCType" target="java.sql.SQLType">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.sql.PreparedStatement" target="java.sql.Statement">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLNonTransientException" target="java.sql.SQLException">
+      <point x="0.0" y="-18.0" />
+      <point x="1138.0" y="425.0" />
+      <point x="1668.9583333333335" y="425.0" />
+      <point x="-13.083333333333371" y="18.0" />
+    </edge>
+    <edge source="java.sql.ParameterMetaData" target="java.sql.Wrapper">
+      <point x="0.0" y="-18.0" />
+      <point x="862.5" y="66.0" />
+      <point x="568.25" y="66.0" />
+      <point x="29.25" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLTransientConnectionException" target="java.sql.SQLTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="2602.5" y="521.0" />
+      <point x="2587.884803921569" y="521.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.sql.BatchUpdateException" target="java.sql.SQLException">
+      <point x="0.0" y="-18.0" />
+      <point x="1810.5416666666667" y="425.0" />
+      <point x="1695.125" y="425.0" />
+      <point x="13.083333333333371" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLIntegrityConstraintViolationException" target="java.sql.SQLNonTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="1290.5" y="521.0" />
+      <point x="1159.0833333333335" y="521.0" />
+      <point x="21.083333333333485" y="18.0" />
+    </edge>
+    <edge source="java.sql.Statement" target="java.sql.Wrapper">
+      <point x="0.0" y="-18.0" />
+      <point x="98.5" y="56.0" />
+      <point x="490.25" y="56.0" />
+      <point x="-48.75" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLSyntaxErrorException" target="java.sql.SQLNonTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="1976.5" y="501.0" />
+      <point x="1243.4166666666665" y="501.0" />
+      <point x="105.41666666666652" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLFeatureNotSupportedException" target="java.sql.SQLNonTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="716.5" y="511.0" />
+      <point x="1074.75" y="511.0" />
+      <point x="-63.25" y="18.0" />
+    </edge>
+    <edge source="java.sql.Connection" target="java.sql.Wrapper">
+      <point x="0.0" y="-18.0" />
+      <point x="1051.5" y="56.0" />
+      <point x="587.75" y="56.0" />
+      <point x="48.75" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLWarning" target="java.sql.SQLException">
+      <point x="-1.1368683772161603E-13" y="-18.0" />
+      <point x="86.49999999999977" y="405.0" />
+      <point x="1616.625" y="405.0" />
+      <point x="-65.41666666666663" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLRecoverableException" target="java.sql.SQLException">
+      <point x="0.0" y="-18.0" />
+      <point x="2844.884803921569" y="405.0" />
+      <point x="1747.4583333333335" y="405.0" />
+      <point x="65.41666666666663" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLDataException" target="java.sql.SQLNonTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="985.5" y="521.0" />
+      <point x="1116.9166666666665" y="521.0" />
+      <point x="-21.083333333333485" y="18.0" />
+    </edge>
+    <edge source="java.sql.DatabaseMetaData" target="java.sql.Wrapper">
+      <point x="0.0" y="-18.0" />
+      <point x="432.5" y="76.0" />
+      <point x="529.25" y="76.0" />
+      <point x="-9.75" y="18.0" />
+    </edge>
+    <edge source="java.sql.SQLNonTransientConnectionException" target="java.sql.SQLNonTransientException">
+      <point x="0.0" y="-18.0" />
+      <point x="1667.5" y="511.0" />
+      <point x="1201.25" y="511.0" />
+      <point x="63.25" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0857142857142856" x="766.5789473684212" y="571.7105263157895" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,35 @@
+# design-pattern-notes
+设计模式学习笔记，主要是对网络资源及书籍[《大话设计模式》](https://www.amazon.cn/dp/B00YXHUF10/ref=sr_1_4?s=books&ie=UTF8&qid=1525329136&sr=1-4&keywords=%E5%A4%A7%E8%AF%9D%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)、[《设计模式》](https://www.amazon.cn/dp/B005XUK0DE/ref=sr_1_1?s=books&ie=UTF8&qid=1525848051&sr=1-1&keywords=%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F+%E5%88%98%E4%BC%9F)的摘录。谈谈这两本书，前者适合初学者入门，因为它是通过对话的方式以及讲故事的方式来构造一个情景，再引入一个一个的模式，由于我对设计模式稍微有了了解（学习过这门课程），所以看到那些对话和情节基本都是跳过的。后者是设计模式这门课程的教材，相比前者比较死板，但是比前者详细，总之两者各有优点。下面的摘录也是秉承了死板的精神，死板的方式可以使用极少的词汇描述大量的知识，所以死板并不是缺点。换句话说，这一系列笔记并没有详细的去解释，仅仅是给出了概念，可以通过模式名称字面意思、概念结合例子揣摩模式含义，这样对模式的映像会更加深刻。
+
+## 目录  
+
+- [代码注释](./notes/java-notes.md)  
+- [abstract class 与interface 的区别](./notes/diff-abstract-interface.md)  
+- [面向对象设计原则](./notes/oop.md)  
+- [注意事项](./notes/attentions.md)  
+- [创建型 - 简单工厂模式](./notes/create-simple-factory.md)  
+- [创建型 - 工厂方法模式](./notes/create-factory-method.md)  
+- [创建型 - 抽象工厂模式](./notes/create-abstract-factory.md)  
+- [创建型 - 建造者模式](./notes/create-builder-factory.md)  
+- [创建型 - 原型模式](./notes/create-prototype.md)  
+- [创建型 - 单例模式](./notes/create-singleton-factory.md)  
+- [结构型 - 适配器模式](./notes/structural-adapter.md)  
+- [结构型 - 桥接模式](./notes/structural-bridge.md)  
+- [结构型 - 组合模式](./notes/structural-composite.md)  
+- [结构型 - 装饰模式](./notes/structural-decorator.md)  
+- [结构型 - 外观模式](./notes/structural-facade.md)  
+- [结构型 - 享元模式](./notes/structural-flyweight.md)  
+- [结构型 - 代理模式](./notes/structural-proxy.md)  
+- [代理模式 - 动态代理机制](./notes/dynamic-proxy.md)  
+- [行为型 - 职责链模式](./notes/behavioral-chain-of-responsibility.md)  
+- [行为型 - 命令模式](./notes/behavioral-command.md)  
+- [行为型 - 解释器模式](./notes/behavioral-interpreter.md)  
+- [行为型 - 迭代器模式](./notes/behavioral-iterator.md)  
+- [行为型 - 中介者模式](./notes/behavioral-mediator.md)  
+- [行为型 - 备忘录模式](./notes/behavioral-memento.md)  
+- [行为型 - 观察者模式](./notes/behavioral-observer.md)  
+- [行为型 - 状态模式](./notes/behavioral-state.md)  
+- [行为型 - 策略模式](./notes/behavioral-strategy.md)  
+- [行为型 - 模板方法模式](./notes/behavioral-template-method.md)  
+- [行为型 - 访问者模式](./notes/behavioral-visitor.md)  
+

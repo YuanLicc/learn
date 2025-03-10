@@ -1,0 +1,10 @@
+##ignore file##
+.idea/
+/target/
+.settings/
+build/
+bin/
+.project
+.classpath
+*.iml
+
