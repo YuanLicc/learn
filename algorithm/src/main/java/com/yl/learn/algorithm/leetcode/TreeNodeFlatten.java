@@ -13,6 +13,7 @@ import com.yl.learn.algorithm.TreeNode;
  */
 public class TreeNodeFlatten {
 
+    // 可以利用递归实现，也可以利用栈保存右节点
     public void flatten(TreeNode root) {
         if(root == null) return;
         TreeNode right = root.right; // 保存右节点备份
