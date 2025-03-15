@@ -3,8 +3,16 @@ package com.yl.learn.algorithm.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 给你一个整数数组 nums 和一个整数 k ，请你返回其中出现频率前 k 高的元素。你可以按 任意顺序 返回答案。
+ *
+ * 示例 1:
+ * 输入: nums = [1,1,1,2,2,3], k = 2
+ * 输出: [1,2]
+ */
 public class TopKFrequent {
 
+    // TOPK，优先想到的就是堆排序
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for(int i = 0; i < nums.length; i++) {
