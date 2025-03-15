@@ -10,6 +10,9 @@ public class FindKthLargest {
         return nums[0];
     }
 
+    // 堆排思路：
+    // 首先需要获取到最后一个子树结构父节点 => 总节点数 / 2 - 1
+    // 然后进行逐级向上构建局部堆 => 将父节点及左右子节点进行比较：大的节点和父节点进行交换，若发生了交换，那么还需要维护交换的子节点的堆
     private void buildMaxHeap(int[] nums, int heapSize) {
         for(int i = heapSize / 2 - 1; i >= 0; i--) {
             heap(nums, i, heapSize);
