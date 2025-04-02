@@ -1,6 +1,6 @@
 package com.yl.learn.interview.algorithm.list;
 
-import com.yl.learn.util.util.PrintUtil;
+import com.yl.learn.common.util.PrintUtil;
 import junit.framework.TestCase;
 
 public class NodeToListTest extends TestCase {

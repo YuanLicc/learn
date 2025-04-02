@@ -1,8 +1,8 @@
 package com.yl.learn.interview.algorithm.tree;
 
-import com.yl.learn.util.tree.TreeBuilder;
-import com.yl.learn.util.tree.TreeNode;
-import com.yl.learn.util.util.PrintUtil;
+import com.yl.learn.common.tree.TreeBuilder;
+import com.yl.learn.common.tree.TreeNode;
+import com.yl.learn.common.util.PrintUtil;
 import junit.framework.TestCase;
 
 public class ReBuildTreeTest extends TestCase {
@@ -12,7 +12,7 @@ public class ReBuildTreeTest extends TestCase {
 
     public void testReBuildTree() {
 
-        TreeNode<Integer> tree =TreeBuilder.build(pre, in);
+        TreeNode<Integer> tree = TreeBuilder.build(pre, in);
         PrintUtil.println(tree);
 
         PrintUtil.printlnLine();

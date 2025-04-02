@@ -1,6 +1,6 @@
 package com.zh.learn.interview.map;
 
-import com.yl.learn.util.util.PrintUtil;
+import com.yl.learn.common.util.PrintUtil;
 import org.junit.Test;
 
 import java.util.HashMap;

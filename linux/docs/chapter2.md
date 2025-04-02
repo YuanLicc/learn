@@ -29,7 +29,7 @@ cp file1 file2 将文件 file1 复制到文件 file2
 ```
 
 ```shell
-cp file1 ... filen dir 将文件 file1 到 fileN 复制到目录 dir 中
+cp file1 ... file dir 将文件 file1 到 fileN 复制到目录 dir 中
 ```
 
 #### mv

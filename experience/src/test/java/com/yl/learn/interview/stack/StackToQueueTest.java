@@ -1,7 +1,7 @@
 package com.yl.learn.interview.stack;
 
+import com.yl.learn.common.util.PrintUtil;
 import com.yl.learn.interview.algorithm.stack.StackToQueue;
-import com.yl.learn.util.util.PrintUtil;
 import junit.framework.TestCase;
 
 public class StackToQueueTest extends TestCase {
