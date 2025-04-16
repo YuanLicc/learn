@@ -1,6 +1,8 @@
 package com.yl.learn.algorithm.od;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -34,27 +36,66 @@ import java.util.Scanner;
  * [5, 2]
  */
 public class JumpStep {
+//
+//    public static void main(String[] args) {
+//        Scanner in = new Scanner(System.in);
+//        int[] steps = Arrays.stream(
+//                in.nextLine().replaceAll("[^\\-0-9,]", "").split(",")
+//        ).mapToInt(Integer::parseInt).toArray();
+//        int aimStep = in.nextInt();
+//        // 维护一个最小索引和用作判断
+//        int minIndexSum = steps.length * 2;
+//        // 维护输出结果
+//        int firstNum = 0, secondNum = 0;
+//        // 存储数字与索引
+//        Map<Integer, Integer> numIndexMap = new HashMap<>();
+//        for (int i = 0; i < steps.length; i++) {
+//            Integer otherIndex = numIndexMap.get(aimStep - steps[i]);
+//            // 如果在map中找到了目标值（aimStep - steps[i]），说明当前的 steps[i] + steps[otherIndex] = aimStep
+//            if(null != otherIndex) {
+//                // 如果索引和小于前面符合条件的索引和，则更新结果
+//                if(i + otherIndex < minIndexSum) {
+//                    minIndexSum = i + otherIndex;
+//                    firstNum = steps[otherIndex];
+//                    secondNum = steps[i];
+//                }
+//            }
+//            // 此处需要考虑情况，数组中存在重复数值，比如说 2, 3, 2, 4, 3 aim=6
+//            // 咱们不能在遍历时直接 put，这样相同数值的下标将会被更新
+//            // 咱们需要计算最小索引和，那么对于重复数值，只需要维护最小的索引即可
+//            if(!numIndexMap.containsKey(steps[i])) {
+//                numIndexMap.put(steps[i], i);
+//            }
+//        }
+//        System.out.println(minIndexSum == steps.length * 2 ? "" : ("[" + firstNum + "," + secondNum + "]"));
+//    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int[] steps = Arrays.stream(in.nextLine().replaceAll("[^0-9,]", "").split(",")).mapToInt(Integer::parseInt).toArray();
+        int[] steps = Arrays.stream(
+                in.nextLine().replaceAll("[^\\-0-9,]", "").split(",")
+        ).mapToInt(Integer::parseInt).toArray();
         int aimStep = in.nextInt();
-
-        int min = steps.length * 2;
-        int iIndex = 0, jIndex = 0;
+        // 维护一个最小索引和用作判断
+        int minIndexSum = steps.length * 2;
+        // 维护输出结果
+        int firstNum = 0, secondNum = 0;
+        // 暴力遍历所有组合
         for (int i = 0; i < steps.length; i++) {
             for (int j = i + 1; j < steps.length; j++) {
+                // 满足两数之和等于目标值
                 if(steps[i] + steps[j] == aimStep) {
-                    if(i + j < min) {
-                        min = i + j;
-                        iIndex = steps[i];
-                        jIndex = steps[j];
+                    if(i + j < minIndexSum) {
+                        minIndexSum = i + j;
+                        firstNum = steps[i];
+                        secondNum = steps[j];
                     }
                 }
             }
         }
-
-        System.out.println(min == steps.length * 2 ? "-1" : ("[" + iIndex + "," + jIndex + "]"));
+        System.out.println(
+                minIndexSum == steps.length * 2 ? "" : ("[" + firstNum + "," + secondNum + "]")
+        );
     }
 
     // int[][] dp = new int[steps.length + 1][aimStep + 1];
